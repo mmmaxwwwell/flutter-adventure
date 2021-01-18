@@ -3,6 +3,7 @@ import 'package:adminclient/pages/clients/PublicKeysPage.dart';
 import 'package:adminclient/pages/privateKeys/PrivateKeysPage.dart';
 import 'package:adminclient/pages/scripts/ScriptsPage.dart';
 import 'package:adminclient/pages/settings/SettingsPage.dart';
+import 'package:adminclient/pages/settings/SettingsPage2.dart';
 import 'package:adminclient/pages/status/StatusPage.dart';
 import 'package:flutter/material.dart';
 import './demo.dart';
@@ -21,6 +22,7 @@ class _MyHomePageState extends State<MyHomePage> {
     'Private Keys': PrivateKeysPage(),
     'Scripts': ScriptsPage(),
     'Settings': SettingsPage(),
+    'Settings2': SettingsPage2(),
     'Status': StatusPage(),
   };
 
